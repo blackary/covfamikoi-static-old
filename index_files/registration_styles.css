@@ -1,0 +1,49 @@
+.top-pad {
+    padding-top: 10px;
+}
+.bottom-pad-10x {
+    padding-bottom: 100px;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+div.danger {
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+td {
+    min-width: 100px;
+}
+
+th {
+    text-align: center;
+}
+
+.btn.add {
+    float: right;
+}
+
+.total {
+    text-align: right;
+}
+
+[name=youth_medical_agreement] {
+    display: inline;
+}
+
+.youth_medical_row .form-control{
+   width: 120px;
+   display: inline-block;
+   margin-right: 20px;
+}
+
+@media print {
+    hr {
+        page-break-after: always;
+        opacity: 0;
+    }
+}
